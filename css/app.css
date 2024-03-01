@@ -136,7 +136,8 @@ footer {
     background: url('../assets/images/depan.jpeg'); 
     background-repeat: no-repeat; 
     background-size: cover; 
-    background-position: 57%;
+    background-position-x: center;
+    background-position-y: 15%;
 }
 
 .bg-depan::before {
