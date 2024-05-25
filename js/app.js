@@ -999,3 +999,31 @@ const comment = (() => {
         kirim,
     };
 })();
+
+const toggleButton = document.getElementById('toggleButton');
+        const mySection = document.getElementById('mySection');
+
+        toggleButton.addEventListener('click', function() {
+            if (mySection.classList.contains('hidden')) {
+                mySection.classList.remove('hidden');
+                mySection.style.height = mySection.scrollHeight + 'px'; // Set height ke height asli element
+                setTimeout(() => {
+                    mySection.style.opacity = 1; // Set opacity ke 1 setelah class dihapus
+                }, 10); // Waktu kecil untuk menghindari masalah pada beberapa browser
+                // toggleButton.textContent = 'Hide Section';
+                toggleButton.classList.remove('fa-angles-down');
+                toggleButton.classList.add('fa-angles-up');
+            } else {
+                mySection.style.opacity = 0; // Set opacity ke 0 sebelum menambah class
+                mySection.style.height = 0; // Set height ke 0
+                setTimeout(() => {
+                    mySection.classList.add('hidden');
+                }, 500); // Waktu yang sama dengan waktu transisi pada CSS
+                // toggleButton.textContent = 'Show Section';
+                toggleButton.classList.add('fa-angles-down');
+                toggleButton.classList.remove('fa-angles-up');
+            }
+        });
+
+        // Initialize
+        mySection.classList.add('hidden');
