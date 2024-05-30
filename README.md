@@ -6,7 +6,7 @@
 
 ## Demo
 
-<https://dewanakl.github.io/undangan/?to=Teman+teman+semua>
+<https://yessi.azmijuhda.my.id?to=Teman+teman+semua>
 
 ### Deployment API
 
@@ -29,10 +29,6 @@
 ### Contributing
 
 I'm very open to those of you who want to contribute to the undangan!
-
-### Security Vulnerabilities
-
-If you find any security vulnerabilities in this undangan, please email DKL via [dewanakretarta29@gmail.com](mailto:dewanakretarta29@gmail.com).
 
 ### License
 

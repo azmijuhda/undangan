@@ -139,7 +139,7 @@ footer {
 
 .bg-depan{
     height: 100vh !important; 
-    background: url('../assets/images/LRM_EXPORT_20240524_220934.jpg'); 
+    background: url('../assets/images/DSCF0592.jpg'); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position-x: center;
@@ -277,10 +277,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .bg-depan1 {
-        background-position-y: 15%;
-    }
-
     .bg-depan1 {
         background-position-y: 15%;
     }
